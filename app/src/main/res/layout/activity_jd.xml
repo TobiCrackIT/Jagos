@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jd"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    tools:context="com.example.oluwatobi.jagos.JDActivity">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/before_cookie"/>
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Hello!"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+</LinearLayout>
